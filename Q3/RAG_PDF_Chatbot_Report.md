@@ -2,6 +2,29 @@
 # RAG based Chatbot for PDF with Agents 
 
 ## Local Setup: 
+- pip install \
+    langchain \
+    langchain-openai \
+    langchain-community \
+    langchain-core \
+    langchain-deepseek \
+    openai \
+    crewai \
+    crewai-tools \
+    PyPDF2 \
+    faiss-cpu \
+    neo4j \
+    pyvis \
+    streamlit \
+    ipython
+
+
+This python file couldnt run on jupyter notebook as i used streamlit.
+isntead convert the ipynb files to python files and streamlit run filename.py
+ - streamlit run basic_rag.py
+This is the working video for the BASIC RAG chatbot - https://drive.google.com/file/d/1G5swtCnlRIBFxqAOZCY7eU151uML-2XI/view?usp=sharing
+
+THis video shows the generation of knowledge graph  - 
 
 
 This project implements a Retrieval Augmented Generation (RAG) chatbot with streamlit interface using LLMs to interact with content from a PDF document . The system incorporates:
@@ -9,6 +32,9 @@ This project implements a Retrieval Augmented Generation (RAG) chatbot with stre
 - Conversational History Awareness
 - Knowledge Graph Generation (Neo4j)
 - Agentic RAG for Enhanced Multi-Agent Reasoning (using crewAI)
+
+![image](https://github.com/user-attachments/assets/947ebbbd-7ff7-4b82-ba68-f15bc47d4fd1)
+
 
 ---
 
