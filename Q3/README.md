@@ -26,8 +26,8 @@
 
 - THis video shows the generation of knowledge graph  - https://drive.google.com/file/d/1EkF28wj6mV1bJkO1U3-t1Pm8R3fsxNWe/view?usp=sharing
 - there are three ipynb files basic_rag.ipynb - just the basic chatbot
-    kv+graph.ipynb - BONUS part with kv caching , history  and graph
-    Agentic_rag.ipynb - my attempt at making the Agents part [EXTRA BONUS]
+  -  kv+graph.ipynb - BONUS part with kv caching , history  and graph
+   - Agentic_rag.ipynb - my attempt at making the Agents part [EXTRA BONUS]
 
 i have included a example_graph.html file , its a knowledge graph of a example doc 
 
