@@ -14,6 +14,11 @@ In this project, we fine-tuned a pre-trained BERT model on a dataset (`train.csv
 ## About BERT
 
 BERT (Bidirectional Encoder Representations from Transformers) is a large language model developed by Google. It’s pre-trained on large datasets like Wikipedia and BookCorpus. BERT uses a multi-layer bidirectional transformer encoder to represent the input text in high-dimensional space, taking into account the entire context of words in sentences.
+![image](https://github.com/user-attachments/assets/eb3f604b-92f3-48ea-8753-e6a0cf38768f)
+
+![image](https://github.com/user-attachments/assets/c6b3a47c-cd28-4fd9-a3e5-1a6723089423)
+
+
 
 - **BERT Base**: 12 layers / 110M parameters / 768 token length  
 - **BERT Large**: 24 layers / 340M parameters (computationally more intensive)
@@ -85,7 +90,8 @@ I used TFAutoModel and AutoTokenizer from Hugging Face’s transformers library 
 - Initially tried manual data handling but faced errors due to numpy 2.0 incompatibility with model.fit. Switched to using tf.data.Dataset pipeline for smoother integration.
 - Faced confusion in generating a classification report and evaluating predictions. Resolved this by referring to [Keras Metrix Doc](https://keras.io/api/metrics/classification_metrics/#precision-class).
 - Couldnt get GPU utilisation for due to version mismatch in drivers or something - isntalled cuda from starting.
-[image]
+  ![image](https://github.com/user-attachments/assets/9f087240-a31e-47f0-8196-fb4b07c2fad4)
+
 
 ---
 
