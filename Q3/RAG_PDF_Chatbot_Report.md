@@ -24,8 +24,10 @@ isntead convert the ipynb files to python files and streamlit run filename.py
  - streamlit run basic_rag.py
 This is the working video for the BASIC RAG chatbot - https://drive.google.com/file/d/1G5swtCnlRIBFxqAOZCY7eU151uML-2XI/view?usp=sharing
 
-THis video shows the generation of knowledge graph  - 
+THis video shows the generation of knowledge graph  - https://drive.google.com/file/d/1EkF28wj6mV1bJkO1U3-t1Pm8R3fsxNWe/view?usp=sharing
 
+
+i have included a example_graph.html file , its a knowledge graph of a example doc 
 
 This project implements a Retrieval Augmented Generation (RAG) chatbot with streamlit interface using LLMs to interact with content from a PDF document . The system incorporates:
 - KV Caching
