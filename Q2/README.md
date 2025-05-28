@@ -76,3 +76,4 @@ https://www.youtube.com/watch?v=JcU72smpLJk
 https://youtu.be/KkIr1-fq5fo?si=GI7XKR4mygeacHNB
 
 LR schdeduling : https://medium.com/@theom/a-very-short-visual-introduction-to-learning-rate-schedulers-with-code-189eddffdb00
+Weight decay : https://medium.com/@sujathamudadla1213/weight-decay-in-deep-learning-8fb8b5dd825c
