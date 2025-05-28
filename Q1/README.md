@@ -68,7 +68,12 @@ I used TFAutoModel and AutoTokenizer from Hugging Face’s transformers library 
 
 ---
 
-## Experiments & Resources
+## Experiments & Resources : 
+- Got an accuracy of 88.9%
+- Precision of 89.3%
+- Accuracy of 88.9%
+- Recall of 88.8&
+
 
 ### Resources Used:(mainly medium articles and yt and some of keras website)
 - [YouTube Guide](https://www.youtube.com/watch?v=IzbjGaYQB-U&t=558s)
