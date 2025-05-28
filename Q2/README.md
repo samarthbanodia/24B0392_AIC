@@ -14,8 +14,10 @@ ResNet50 is considered a SOTA (state-of-the-art) model because of its unique arc
 
 This is the architecture of ResNet50:
 
-![ResNet50 Overview](attachment:396a1ebb-1e8a-4238-8e31-5ef2cb1e99ff:image.png)  
-![ResNet50 Layers](attachment:ef3cff8f-84cc-420a-b215-6d92f5b43772:image.png)
+![image](https://github.com/user-attachments/assets/6886cfaa-1202-41a6-a9f5-7aaff79f0148)
+
+![image](https://github.com/user-attachments/assets/a1264e64-b957-47e7-b30d-eff35fc845f8)
+
 
 Output from CNN layers are fed into FC layers which then map the features to the desired number of outputs.
 
