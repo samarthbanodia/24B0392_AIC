@@ -50,6 +50,13 @@ We can unfreeze some layers of the model to fine-tune it, which we had to do for
 - Changing number of epochs
 - Unfreezing different layers
 
+- data augmentation - rotating images , flipping , zoom
+- LR schdeuling - dynamically change the LR during traning
+- dropout - adding dropout layer in the fc head
+- weight decay - regulat if weight becomes too large
+
+  LR scheduling and dropout help increase the validation accuracy.
+
 ---
 
 ## Error Handling and Troubleshooting
