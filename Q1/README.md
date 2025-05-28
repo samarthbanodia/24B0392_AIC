@@ -68,7 +68,7 @@ I used TFAutoModel and AutoTokenizer from Hugging Face’s transformers library 
 
 ---
 
-## Experiments & Resources : 
+## Experiments & Resources : Taking 5 epocs , batch size of 4 and learning rate = 1e-5 i got ,
 - Got an accuracy of 88.9%
 - Precision of 89.3%
 - Accuracy of 88.9%
