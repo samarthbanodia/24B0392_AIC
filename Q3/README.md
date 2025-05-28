@@ -19,13 +19,15 @@
     ipython
 
 
-This python file couldnt run on jupyter notebook as i used streamlit.
-isntead convert the ipynb files to python files and streamlit run filename.py
+- This python file couldnt run on jupyter notebook as i used streamlit.
+- instead convert the ipynb files to python files and streamlit run filename.py
  - streamlit run basic_rag.py
-This is the working video for the BASIC RAG chatbot - https://drive.google.com/file/d/1G5swtCnlRIBFxqAOZCY7eU151uML-2XI/view?usp=sharing
+- This is the working video for the BASIC RAG chatbot - https://drive.google.com/file/d/1G5swtCnlRIBFxqAOZCY7eU151uML-2XI/view?usp=sharing
 
-THis video shows the generation of knowledge graph  - https://drive.google.com/file/d/1EkF28wj6mV1bJkO1U3-t1Pm8R3fsxNWe/view?usp=sharing
-
+- THis video shows the generation of knowledge graph  - https://drive.google.com/file/d/1EkF28wj6mV1bJkO1U3-t1Pm8R3fsxNWe/view?usp=sharing
+- there are three ipynb files basic_rag.ipynb - just the basic chatbot
+    kv+graph.ipynb - BONUS part with kv caching , history  and graph
+    Agentic_rag.ipynb - my attempt at making the Agents part [EXTRA BONUS]
 
 i have included a example_graph.html file , its a knowledge graph of a example doc 
 
