@@ -65,18 +65,21 @@ This project implements a Retrieval Augmented Generation (RAG) chatbot with stre
    - Used a Python dictionary as a cache.
    - If a question has been asked before, return cached value.
    - Else, generate new answer and store the key-value pair.
+  
+7. **Knowledge Graph**
+   - The Cypher output from the LLM goes into the neo4j display graph function which locally saves the IFrame html file to view.
 
-7. **Answer Generation**
+9. **Answer Generation**
    - Used Deepseek for generating final LLM-based answers.
 
-8. **History Awareness**
+10. **History Awareness**
    - Maintained a conversation history dictionary (role: user/AI) and message content.
 
-9. **Streamlit UI**
+11. **Streamlit UI**
      - Upload PDF
      - Continuously chat with document context in the session
 
-10. **Agentic RAG (Extra Bonus)**
+12. **Agentic RAG (Extra Bonus)**
     - Followed CrewAI’s tutorials for multi agent coordination.
     - Created 3 agents with specific tasks.
     - Instructed each to output in structured JSON format under 'expected_output'.
