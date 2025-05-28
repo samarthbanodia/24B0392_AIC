@@ -22,7 +22,7 @@ To solve this, I propose a **24/7 WhatsApp-based AI Help Agent**, developed in c
 
 ## Technical Approach and Feasibility
 
-- **Platform**: WhatsApp Business API using Twilio or Meta Cloud API.
+- **Platform**: WhatsApp Business API using Twilio , easy with n8n integration.
 - **Backend**: python based server with webhooks or n8n workslow nodes.
 - **Model**: Retrieval Augmented Generation (RAG) using LLMs like OpenAI , Deepseek etc.
 - **Knowledge Base**: Structured data scraped from institute websites, PDFs, notices, academic calendars, and announcements stored in a vector db like pinecone , faiss , chromadb.
